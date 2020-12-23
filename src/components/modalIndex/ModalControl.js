@@ -20,6 +20,7 @@ const getAllModalList = mapObj => {
 }
 
 class ModalControl {
+  // 创建实例时的初始化操作
   constructor (type) {
     this.type = type
     this.modalFlatMap = {}
@@ -34,6 +35,7 @@ class ModalControl {
       backShow: infoObj.backShow,
       handler: infoObj.handler
     }
+    // 检查当前页面的弹框是否都订阅完成
     this.preCheck()
   }
 

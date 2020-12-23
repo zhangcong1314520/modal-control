@@ -4,6 +4,7 @@
     <a-modal v-model="visible" title="Modal" ok-text="确认" cancel-text="取消" @ok="hideModal" name="modalB">
         <p>要展示在首页的弹框B</p>
     </a-modal>
+    <!-- 孙子组件 -->
     <Grandson />
   </div>
 </template>
